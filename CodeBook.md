@@ -39,9 +39,11 @@ To read this file to a variable called "testTidy" you can use this instruction:
 ### Identifiers
 
 * SubjectId - The Id of the test subject, values 1 to 30
-* ActivityName - The Activity performed (Posible values: WALKING, WALKING_UPSTAIRS,      WALKING_DOWNSTAIRS, SITTING, STANDING and LAYING)
+* ActivityName - The Activity performed (Possible values: WALKING, WALKING_UPSTAIRS,      WALKING_DOWNSTAIRS, SITTING, STANDING and LAYING)
 
 ### Measurements
+
+Check the documentation in the dataset for the units of measure of these variables.
 
 * tBodyAccMeanX
 * tBodyAccMeanY

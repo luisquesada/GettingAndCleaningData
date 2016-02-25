@@ -19,7 +19,7 @@ Inside the file, the requested steps for the project are executed:
  * Appropriately labels the data set with descriptive variable names. The gsub function was used for the     replacements.
  
  * From the data set in the previous step, creates a second, independent tidy data set with the average 
-    of each variable for each activity and each subject. Here the package "reshape2" was used and the use     of the functions "melt" and "dcast" is described in detail.
+    of each variable for each activity and each subject. Here the package "reshape2" was used and the use     of the functions "melt" and "dcast" is described in detail inside the script.
     
     
 When the execution of the script finishes, the result is the file "tidyData.txt" which complies with the definition of tidy data:

@@ -8,7 +8,7 @@ The detailed description of the source data used in this project can be found at
 
 The data itself can be downloaded [here.](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 
-Inside the downloaded zipfile there is "README.txt" file with detailed information about the dataset.
+Inside the downloaded zipfile there is a "README.txt" file with detailed information about the dataset.
 
 ## Clean Up Transformations
 
@@ -16,11 +16,11 @@ Inside the downloaded zipfile there is "README.txt" file with detailed informati
 
 * Inside those subdirectories ("train" and "test") the structure of the files is the same, containing three files "subject", "Y" and "X". Those files are part of the same structure includind the subject, the activity(Y) and the related data(X) respectively and were binded together by column. Same process for train and test.
 
-* The resulting datasets (train and test) are binded (merged) together by row to a new complete data table.
+* The resulting datasets (train and test) are binded (merged) together by row to a complete new data table.
 
 * The descriptive activity names are added to the new complete data table.
 
-* The labels of the variables are improved, eliminating parenthesis and hyphens and using Uppercase on the first letter of "mean" and "std" making them easier to read.
+* The labels of the variables are improved, eliminating parenthesis and hyphens and using Uppercase on the first letter of "mean" and "std", making them easier to read.
 
 * With this data table, create another tidy dataset with the average of each variable for each activity and each subject. For that we use the package "reshape2" and the instructions "melt" to create a narrow tall dataset that can be used as an input for "dcast" to calculate the average of every variable grouped by Activity and Subject.
 
